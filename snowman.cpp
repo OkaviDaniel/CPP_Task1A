@@ -28,7 +28,7 @@ namespace ariel{
             int t = num%ten;
             try{
                 if((t < 1) ||(4 < t)){
-                    throw std::out_of_range("err\n");
+                    throw std::out_of_range("All the digits must be between 1 and 4.\n");
                 }
             }catch(string ex){
                 cout << ex << endl;
